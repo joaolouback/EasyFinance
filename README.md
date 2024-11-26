@@ -1,11 +1,55 @@
-# Sample Snack app
+# EasyFinance
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+EasyFinance é uma aplicação de gerenciamento financeiro pessoal desenvolvida para ajudar usuários a organizar suas finanças de forma simples e eficiente.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 🛠️ Tecnologias Utilizadas
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **React Native**: Framework para desenvolvimento mobile.
+- **AsyncStorage**: Persistência de dados local.
+- **Outras dependências**: Adicione aqui se necessário.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 📥 Pré-requisitos
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Antes de começar, certifique-se de ter o seguinte instalado:
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [Expo CLI](https://expo.dev/) (para projetos React Native)
+- Git (para clonar o repositório)
+- Gerenciador de pacotes `npm` ou `yarn`
+
+## 🚀 Instalação e Execução
+
+Siga os passos abaixo para configurar o projeto em seu ambiente local:
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/EasyFinance.git
+   
+2. **Acesse o diretório do projeto**:
+
+```bash
+Copiar código
+cd EasyFinance
+```
+3. **Instale as dependências: Usando npm**:
+
+```bash
+Copiar código
+npm install
+Ou usando yarn:
+
+bash
+Copiar código
+yarn install
+```
+4. **Inicie o servidor de desenvolvimento**:
+
+```bash
+Copiar código
+expo start
+```
+5. **Execute o aplicativo**:
+
+No terminal, você verá um QR code.
+Escaneie o QR code com o aplicativo Expo Go no seu dispositivo móvel (disponível na Play Store ou App Store).
+Ou use um emulador configurado no seu computador.
